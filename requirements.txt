@@ -9,3 +9,5 @@ python-dotenv
 ctranslate2
 sentencepiece
 onnxruntime
+langchain-groq
+langchain
