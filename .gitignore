@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+audio/*.mp3
+backend/temp_audio.*
+
+.vscode/
+.gradio/
