@@ -5,6 +5,8 @@ from fastapi.staticfiles import StaticFiles
 
 from llm import SimpleLLM
 from stt import SpeechToText
+import os
+os.makedirs("../audio", exist_ok=True)
 
 app = FastAPI()
 
